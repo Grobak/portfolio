@@ -1,0 +1,315 @@
+#search{
+	display:none;
+}
+[draggable=true] {
+	cursor: move;
+}
+#geolocate{ cursor: pointer; }
+	.equal, .equal > div[class*='col-md'] {  
+		display: -webkit-flex;
+		display: flex;
+		flex:1 1 auto;
+	}
+	#floating-panel {
+	  position: absolute;
+	  top: 100px;
+	  left: 10px;
+	  z-index: 99;
+	  background-color: #fff;
+	  padding: 5px;
+	  border: 1px solid #999;
+	  text-align: center;
+	  padding-left: 10px;
+	}
+	.header-action-inner{ 
+		display: inline-block;
+	}
+	.iModif{
+		margin-right: 30%;
+		font-size: 
+	}
+	
+	.categoryList{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	.category{
+		padding-left:5px;
+		padding-right:5px;
+		margin-bottom: 10px;
+	}
+	.mainCat{
+		border-bottom: 1px solid #0000AA;
+		font-weight:bold;
+		text-align:center;
+		font-size:1.6em;
+	}
+	.subCat{
+		
+	}
+	.imgPri{
+		width:100%;
+	}
+	#lieu{
+		margin-bottom:10px;
+	}
+	.culture{
+		color:white;
+		background-color:#185FFF !important;
+	}
+	.divers{
+		color:white;
+		background-color:#3BD100 !important;
+	}
+	.hebergements{
+		color:white;
+		background-color:#FF11BF !important;
+	}
+	.loisirs{
+		color:white;
+		background-color:#FF3B26 !important;
+	}
+	.patrimoine{
+		color:white;
+		background-color:#8623FF !important;
+	}
+	.restauration{
+		color:black;
+		background-color:#FFC507 !important;
+	}
+	.categories > ul > li > ul li{
+		clear:both;
+		display:block;
+	}
+	.categories > ul > li > .categories-link{
+		text-align:center;
+	}
+/*	.formHeader, .formHeader > div{
+		background: black !important;
+		color:white;
+		font-weight:bold;
+		margin-bottom:4px;
+	}
+*/
+.nomargin{margin:0;}
+.nopadding{padding:0;}
+.profileLabel{
+	font-weight:bold;
+	display:inline;
+}
+.profileValue{display:inline;}
+.redColor{
+	background-color:red !important;
+}
+#floating-panel .form-control {
+  box-shadow: none;
+  border-radius: 0px;
+  border: 2px solid #e9e9e9;
+  height: 32px;
+  font-size:0.8em;
+  }
+  #floating-panel .form-control:active, .form-control:focus {
+    border: 2px solid #e9e9e9;
+    box-shadow: none;
+    outline: 0px; }
+#floating-panel label, #floating-panel output {
+  font-size:0.8em;
+
+}
+.detail-banner{
+	height:280px;
+}
+#detail-map{
+	height:300px;
+}
+.comments{
+	margin-left: 35%;
+	margin-bottom: 4%;
+}
+.btn-claim a{
+	color:white;
+}
+.mega-menu i{
+	width:10px;
+	height:10px;
+}
+.detail-gallery{
+	background-color:white;
+}
+#theCarousel{
+	margin-top:5px;
+	padding-bottom:5px;
+}
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -16%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 16%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 16%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -16%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carousel-control.left,
+.multi-item-carousel .carousel-control.right {
+  background-image: none;
+}
+.pt15{ /* Top padding at 15px */
+	padding-top:15px;
+}
+.centered{
+	text-align:center;
+}
+.main {
+    top: 60px !important;
+    position: relative !important;
+	margin-bottom:60px;
+}
+
+.page-header{
+	border-bottom:1px solid rgba(0, 0, 0, 0.05);
+	margin-bottom:50px;
+}
+#exTab1 .tab-content {
+  background-color: white;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  background-color: white;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+#exTab1 .nav-pills > li{
+  border: 1px lightgrey solid;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  background-color: white;
+  padding : 5px 15px;
+}
+
+.inline{
+	display: inline !important; 
+}
+
+.red{
+	font-weight: bold;
+	color: #e72c27 !important; 
+}
+
+.blue{
+	font-weight: bold;
+	color: #306daa; 
+}
+
+.green{
+	font-weight: bold;
+	color: #32ae2d; 
+}
+.detail-content .detail-logo,.detail-content .detail-contact{
+	display:inline-block;
+	width:40%;
+}
+
+.avisRow,.lieuxRow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.avisRow > [class*='col-'], .lieuxRow > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background-color:#2daae1 !important;
+}
+.card-row,.border-box{
+  border-right: 2px solid rgba(180,180,180,0.5);
+  border-bottom: 2px solid rgba(180,180,180,0.5);
+}
+
+
+/*.footer{
+	position: relative;
+	top: 120px;
+}*/
+/* CSS spécifique aux téléphones */
+@media (max-device-width: 768px) {
+	#floating-panel {
+		display:none;
+	}
+	#search{
+		display:block;
+		position: absolute;
+		top: 100px;
+		left: 10px;
+		z-index: 99;
+		background-color: #fff;
+		padding: 5px;
+		border: 1px solid #999;
+		text-align: center;
+		font-family: 'Roboto','sans-serif';
+		line-height: 30px;
+		padding-left: 10px;
+	}
+
+}
+
+
+
+/* LE STAGIAIRE FAIT DES BÊTISES */
+
+.contact-info-wrapper h2{
+	float:none;
+	clear:both;
+}
+
+.page-header h1{
+	margin-bottom:20px !important;
+}
+
+.categories > ul > li > .categories-link .fa{
+	margin: 0px 15px -10px 0px;
+}
+
+.suggestion{
+	text-align:center;
+	margin-bottom:100px;
+}
+
+.titreContact{
+	border-bottom:1px solid lightgrey;
+	margin-bottom:50px;
+}

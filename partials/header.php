@@ -1,26 +1,50 @@
+<head>
+<style type="text/css"> .gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div{font-weight:400}</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">.gm-style .gm-style-cc span, .gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css"> @media print { .gm-style .gmnoprint, .gmnoprint {    display:none  }} @media screen {  .gm-style .gmnoscreen, .gmnoscreen { display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+    
+    <!-- Chargement des fichiers CSS -->  
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="/assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/superlist.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/styles.css" rel="stylesheet">    
+
+
+
+---------------------
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+  <style type="text/css"> .gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div{font-weight:400}</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">.gm-style .gm-style-cc span, .gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css"> @media print { .gm-style .gmnoprint, .gmnoprint {    display:none  }} @media screen {  .gm-style .gmnoscreen, .gmnoscreen { display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
     <title><?= isset($title) ? $title : 'Mon portfolio' ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Coryle Carreras">
     <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../css/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="../css/bootstrap-reboot.min.css" rel="stylesheet">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Fichiers CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="/assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/superlist.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    
     <link type="text/css" href="../galeries/style.css" rel="stylesheet"> 
     <link type="text/css" href="../js/zoombox/zoombox.css" rel="stylesheet" media="screen" />
     <script type="text/javascript" src="../js/jquery.js"></script>
