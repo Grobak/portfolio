@@ -1,0 +1,43 @@
+# src/Dur/PlatformBundle/Resources/config/routing.yml
+
+dur_platform_home:
+    path:      /{page}
+    defaults:
+        _controller: DurPlatformBundle:Advert:index
+        page:        1
+    requirements:
+        page: \d*
+
+dur_platform_view:
+    path:      /advert/{id}
+    defaults:  
+        _controller: DurPlatformBundle:Advert:view
+    requirements:
+        id: \d+
+
+dur_platform_add:
+    path:      /add
+    defaults:  { _controller: DurPlatformBundle:Advert:add }
+
+dur_platform_edit:
+    path:      /edit/{id}
+    defaults:  { _controller: DurPlatformBundle:Advert:edit }
+    requirements:
+        id: \d+
+
+dur_platform_delete:
+    path:      /delete/{id}
+    defaults:  { _controller: DurPlatformBundle:Advert:delete }
+    requirements:
+        id: \d+
+
+dur_platform_add_comm:
+    path:      /addComm/{id}
+    defaults:  { _controller: DurPlatformBundle:Advert:addApplication }
+    requirements:
+        id: \d+
+
+dur_platform_test:
+    path:      /test
+    defaults:  
+        _controller: DurPlatformBundle:Advert:test

@@ -1,0 +1,4 @@
+services:
+#    dur_user.example:
+#        class: Dur\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

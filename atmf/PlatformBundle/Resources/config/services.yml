@@ -1,0 +1,9 @@
+# src/Dur/PlatformBundle/Resources/config/services.yml
+
+services:
+    dur_platform.antispam:
+        class: Dur\PlatformBundle\Antispam\DurAntispam
+    sdz_blog.ckeditor:
+        class: Dur\PlatformBundle\Form\Type\CkeditorType
+        tags:
+            - { name: form.type, alias: ckeditor }

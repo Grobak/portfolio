@@ -1,0 +1,17 @@
+{# src/Dur/PlatformBundle/Resources/views/Advert/add.php.twig #}
+
+{% extends "DurPlatformBundle::layout.php.twig" %}
+
+{% block title %}
+	Nous contacter
+{% endblock %}        	
+
+{% block durplatform_body %}
+
+		<h2>Ecrivez nous !</h2>
+		<p>
+			Remplissez le formulaire puis confirmez pour nous envoyer un mail.<br>
+  			Les champs marqués d'une étoile sont obligatoires. N'oubliez pas de les remplir !
+			{{ include("DurPlatformBundle:Contact:form.html.twig") }}
+		</p>
+{% endblock %}
